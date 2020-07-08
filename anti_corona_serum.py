@@ -1,0 +1,10 @@
+n=int(input())
+if(n%2==1):
+    print(1)
+else:
+    x=n
+    while(n>0):
+        n//=2
+        if(n%2==1):
+            break
+    print(x//n)
